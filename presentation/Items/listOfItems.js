@@ -20,7 +20,7 @@ export default ListOfItems = () => {
 
                 :
           
-      <View style={styles.container}>
+      <View>
 
           <FlatList
           data={data}
@@ -34,6 +34,9 @@ export default ListOfItems = () => {
             </View>
           )}
           numColumns={2} 
+          showsVerticalScrollIndicator={false}
+          snapToAlignment={'start'}
+          decelerationRate={'fast'}            
           />  
 
       </View>
