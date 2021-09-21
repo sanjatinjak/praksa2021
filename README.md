@@ -1,7 +1,7 @@
 # Praksa 2021
 Mobile application for shopping made with React Native.
 
-<img src="demo.gif" alt="demo" width="60%"/>
+<img src="demo.gif" alt="demo" width="40%"/>
 
 ## Install and run on android
 ```
